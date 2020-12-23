@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk-alpine
-ADD ./target/*.jar /app.jar
+ADD ./target/myapp-1.0.jar /app.jar
 #ENV JAVA_OPTS=""
-ENTRYPOINT [ "sh", "-c", "java -jar /app.jar" ]
+ENTRYPOINT [ "sh", "-c", "java -jar/app.jar" ]
